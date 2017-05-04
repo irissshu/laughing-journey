@@ -488,18 +488,22 @@ public class FamilyBudge extends javax.swing.JFrame {
  
         String Housing = " ";
         for (int HOUSING = 0; HOUSING <= hP; HOUSING++){
+            HOUSING += 1;
             jLabel21.setText(jLabel21.getText() + " ");
         }
         String Transportation = " ";
         for (int TRANSPORTATION = 0; TRANSPORTATION <= tP; TRANSPORTATION++){
+            TRANSPORTATION += 1;
             jLabel20.setText(jLabel20.getText() + " ");
     }//GEN-LAST:event_jButton1ActionPerformed
         String Life = " ";
         for (int LIFE = 0; LIFE <= lP; LIFE++){
+            LIFE += 1;
             jLabel24.setText(jLabel24.getText() + " ");        
     }
         String Savings = " ";
         for (int SAVINGS = 0; SAVINGS <= sP; SAVINGS++){
+            SAVINGS += 1;
             jLabel22.setText(jLabel22.getText() + " ");
     }
 }
